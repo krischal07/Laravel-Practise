@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    This is a welcome page hello
+    <h1>This is a about us page</h1>
 </body>
 
 </html>

@@ -1,13 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-    // echo "<h1>Hello Krischal this is first laravel page</h1>";
-});
+Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/about-us', function () {
-    return view('about');
-    // echo "<h1>ABout us page</h1>";
-});
+Route::get('/about-us', [AboutController::class, 'about']);

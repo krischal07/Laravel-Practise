@@ -9,6 +9,8 @@
 
 <body>
     <h1>This is a about us page</h1>
+    <p>My name is {{$name}}</p>
+
 </body>
 
 </html>

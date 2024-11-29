@@ -8,7 +8,12 @@
 </head>
 
 <body>
-    This is a welcome page hello
+    <h1>This is a welcome page hello</h1>
+
+
+    @foreach($contacts as $contact)
+    <h2>{{$contact->name}}</h2>
+    @endforeach
 </body>
 
 </html>
